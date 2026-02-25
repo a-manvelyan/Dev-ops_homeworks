@@ -39,7 +39,7 @@ fi
 
 echo "______________Status__________________"
 
-sudo systemctl status nginx --no-pager | grep "Active:" 
+sudo systemctl status nginx --no-pager 
 
 echo "_____________Journal___________________"
 
